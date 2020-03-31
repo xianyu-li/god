@@ -1,0 +1,30 @@
+/* 
+    GLOBAL 
+    TYPOGRAPHY
+    NAVIGATION
+ */
+
+ body{
+    background-color: black;
+    font-size: 25px;
+
+ }
+ p{
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    animation: wave 3s ease-in-out infinite;
+
+ }
+
+ @keyframes wave{
+    0%, 50%, 100% { 
+    transform: translateY(0);
+     opacity: 0;
+    }
+    10% { 
+    transform: translateY(-15px); 
+    color: white;
+    opacity: 100;
+    }  
+  }
